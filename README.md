@@ -41,7 +41,7 @@ A full xterm.js terminal, multi-tab, right inside your workspace. No switching w
 git clone https://github.com/your-username/nebula-ide.git
 cd nebula-ide
 pip install -r requirements.txt
-python run.py
+python app.py
 ```
 
 Open `http://localhost:8000` — that's it.
@@ -64,11 +64,10 @@ Open `http://localhost:8000` — that's it.
 ```
 nebula-ide/
 ├── run.py          # Entry point
-├── a.py            # Core AI orchestration
+├── app.py            # Core AI orchestration
 ├── model.py        # AI model interface  
 ├── logic.py        # GitHub & deployment logic
-├── storage/        # Project memory & recent files
-└── temp/           # Processing workspace
+└── storage/        # Project memory & recent files
 ```
 
 ---
@@ -112,3 +111,4 @@ MIT. Build whatever you want with it.
 <p align="center">
   <i>Built different. On purpose.</i>
 </p>
+
